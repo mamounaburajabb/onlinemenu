@@ -8,10 +8,10 @@ const Home = () => {
             <div>
 
             </div>
-            {/* <h1 className='imagess'>
+            <h1 className='imagess'>
                   Enjoy Our
                   Delicious Meal
-              </h1> */}
+              </h1>
 
 
         </div>
