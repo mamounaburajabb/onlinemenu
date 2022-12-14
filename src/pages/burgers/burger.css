@@ -9,6 +9,7 @@
     align-items: center;
     margin: 30px;
     flex-wrap: wrap;
+    
 
 }
 .males{
@@ -35,6 +36,8 @@
     align-content: space-between;
     row-gap: 10px;
     font-size: 15px;
+    text-decoration: none;
+
 }
 .name-price{
     display: flex;

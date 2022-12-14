@@ -25,7 +25,7 @@ const Drink = () => {
                             <button
                                 className='name-price'>
                                 <h3>{item.name}</h3>
-                                <span className='price'>{item.price}</span>
+                                <span className='price'>${item.price}</span>
                             </button>
                             <span className='hLine'></span>
                             <div>

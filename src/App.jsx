@@ -10,12 +10,14 @@ import Burger from './pages/burgers/burger';
 import Pastas from './pages/pasta/pasta';
 import Header from './component/header/header';
 import Home from './pages/home/home';
+import MealDetails from './component/male-component/maleDeta';
 function App() {
   return (
     <div className='app'>
       <BrowserRouter>
         <Routes>
           <Route path='/home' element={<Home />} />
+          <Route path='/meal' element={<MealDetails />} />
 
           <Route path='/admin' element={<Login />} />
           <Route path='/all' element={<AllMales />} />

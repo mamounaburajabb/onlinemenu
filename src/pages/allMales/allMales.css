@@ -39,11 +39,20 @@
     align-content: space-between;
     row-gap: 10px;
 }
+.header:hover{
+    color: #000000;
+
+}
 .name-price{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
+    text-decoration: none;
+    color: #000000;
+}
+.name-price :hover{
+    color: #EFAC68;
 }
 .hLine{
     border: 1px solid rgba(141, 137, 137, 0.5);

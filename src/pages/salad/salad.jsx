@@ -21,7 +21,7 @@ const Salad = () => {
                             <div
                                 className='name-price'>
                                 <h3>{item.name}</h3>
-                                <span className='price'>{item.price}</span>
+                                <span className='price'>${item.price}</span>
                             </div>
                             <span className='hLine'></span>
                             <div>

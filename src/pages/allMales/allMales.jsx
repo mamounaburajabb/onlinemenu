@@ -8,6 +8,7 @@ import { Pasta } from '../../assets/data/pasta'
 import { Salads } from '../../assets/data/salads'
 import Header from '../../component/header/header'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 const AllMales = () => {
     let Data = [...Burgers, ...Pasta, ...Drinks, ...Pizza, ...Salads];
     const [male, setMale] = useState(Data);
@@ -30,11 +31,11 @@ const AllMales = () => {
                             id="image" alt="pizza" />
                         <div
                             className='header'>
-                            <button
+                            <Link to={"/meal"}
                                 className='name-price'>
                                 <h3>{item.name}</h3>
-                                <span className='price'>{item.price}</span>
-                            </button>
+                                <span className='price'>${item.price}</span>
+                            </Link>
                             <span className='hLine'></span>
                             <div>
                                 <p className='description'>{item.descriptionMale}</p>

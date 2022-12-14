@@ -3,6 +3,7 @@ import './burger.css'
 import Section from '../../component/section/section'
 import Header from '../../component/header/header'
 import { Burgers } from '../../assets/data/burgers'
+import { Link } from 'react-router-dom'
 const Burger = () => {
 
     return (
@@ -18,18 +19,18 @@ const Burger = () => {
                         className='males'>
                         <img src={item.image}
                             className="image" alt="pizza" />
-                        <button
+                        <Link to={"/meal"}
                             className='header'>
                             <div
                                 className='name-price'>
                                 <h3>{item.name}</h3>
-                                <span className='price'>{item.price}</span>
+                                <span className='price'>${item.price}</span>
                             </div>
                             <span className='hLine'></span>
                             <div>
                                 <p className='description'>{item.descriptionMale}</p>
                             </div>
-                        </button>
+                        </Link>
                     </div>)}
             </div>
         </div>

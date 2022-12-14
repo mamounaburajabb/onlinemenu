@@ -3,10 +3,12 @@
     width: 80rem;
     height: 18rem;
     align-items: center;
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    margin: 0px;
+    padding: 0px;
 }
 .bar{
-    margin: 20px 0 50px 0;
+    /* margin: 20px 0 50px 0; */
     align-items: center;
     flex-wrap: nowrap;
        width: 60rem;

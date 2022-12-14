@@ -41,7 +41,7 @@ const Burgers =
     }, {
         "id": "2d936e3db-4393-462e-a6hyhyg88-67edd76bec80",
         "name": "Burger",
-        "descriptionMale": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "descriptionMale": "Cum sociis natoque penatibus et magnis dis parturient montessapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "price": 28
         , "image": "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=400"
 
