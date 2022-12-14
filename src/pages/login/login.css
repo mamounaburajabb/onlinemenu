@@ -1,0 +1,44 @@
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10rem;
+}
+div > form > div {
+  display: flex;
+  margin-left: 5rem;
+  flex-direction: column;
+}
+.email {
+  margin-bottom: 30px;
+  font-size: larger;
+  align-items: flex-start;
+}
+
+.pass {
+  font-size: larger;
+  align-items: flex-start;
+}
+input {
+  margin-top: 10px;
+  width: 250px;
+  height: 25px; 
+  border-radius: 0.5rem;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+  margin-top: 50px;
+  background-color: #FF9D2E;
+  height: 30px;
+  border: none;
+  border-radius: .5rem;
+  font-size: larger;
+  cursor: pointer;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}

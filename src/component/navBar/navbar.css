@@ -1,0 +1,45 @@
+.Navbar{
+    flex-direction: column;
+    width: 80rem;
+    height: 18rem;
+    align-items: center;
+    margin-top: 15px;
+}
+.bar{
+    margin: 20px 0 50px 0;
+    align-items: center;
+    flex-wrap: nowrap;
+       width: 60rem;
+       color: aliceblue;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-left: 15px;
+    color: aliceblue;
+}
+.links:hover{
+    color: #FF9D2E;
+}
+.titel{
+    margin-bottom: 7%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+button{
+    all: unset;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: 500;
+    font-size: 15px;
+}
+.bar .pizzon{
+    font-size: 230% ;
+    font-weight: bold;
+    font-family:cursive;
+    text-decoration: none;
+    color: aliceblue;
+}
